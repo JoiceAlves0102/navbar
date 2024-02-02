@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SigSos</title>
+</head>
+
+<body>
+    <header>
+
+        <section class="cabecalho">
+            <figure class="cabecalho__icone">
+                <img src="assets/SIG.png">
+            </figure>
+            <div class="cabecalho__identificacao">
+                <span class="identificacao">xxxxxx</span>
+            </div>
+        </section>
+
+        <button class="button__ativar-menu" onclick="ativarMenu()">👌 Menu</button>
+
+        <nav>
+            <ul class="menu__lateral hidde">               
+                
+            <button class="button__ativar-menu" onclick="ativarMenu()">👌 Menu</button>
+            
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Solicitações</p>
+                    </a>
+                </li>
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Cadastrar Solicitações</p>
+                    </a>
+                </li>
+
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Solicitações Encerradas</p>
+                    </a>
+                </li>
+
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Solicitações Canceladas</p>
+                    </a>
+                </li>
+
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Relatórios</p>
+                    </a>
+                </li>
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Realizar Consultas</p>
+                    </a>
+                </li>
+                <li class="menu__lateral-items">
+                    <a href="x">
+                        <p>Manutenção SigSos</p>
+                    </a>
+                </li>
+
+                <li class="menu__lateral-items-btn">
+                    <button><span class="btn">Sair</h6><span></button>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <footer>
+        <p>Em desenvolvimento</p>
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+     const menuLateral = document.querySelector(".menu__lateral");
+
+    function ativarMenu(){
+       menuLateral.classList.toggle("hidde");
+    }
+</script>
